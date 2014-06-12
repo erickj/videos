@@ -1,0 +1,27 @@
+{
+  "name": "videos",
+  "version": "0.0.1",
+  "description": "Simple comments",
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-cli": "~0.1.13",
+    "grunt-contrib-jasmine": "~0.6.1",
+    "grunt-contrib-clean": "~0.5.0",
+    "closure-linter-wrapper": "~0.2.9",
+    "grunt-gjslint": "~0.1.4",
+    "grunt-closure-tools": "~0.9.2",
+    "grunt-jasmine-node": "~0.1.0"
+  },
+  "scripts": {
+    "doc": "jsdoc -d=doc src/closure-library/closure/goog/*",
+    "postinstall": "grunt init",
+    "test": "grunt test-all"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/erickj/videos.git"
+  },
+  "author": "ejohnson82@gmail.com",
+  "license": "MIT"
+}

@@ -1,0 +1,6 @@
+*/*autogen.js
+build
+doc
+node_modules
+src/closure-library
+private
